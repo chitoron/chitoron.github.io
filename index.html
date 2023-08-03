@@ -1,13 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Portfolio Site</title>
-	<link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自己紹介サイト</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+    }
+  </style>
 </head>
 <body>
-	<h1>Memo</h1>
+  <header>
+    <h1>自己紹介</h1>
+  </header>
+  <nav>
+    <a href="#about">自己紹介</a>
+    <a href="#skills">スキル</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+  <div class="container">
+    <section id="about">
+      <h2>自己紹介</h2>
+      <p>
+        こんにちは、私は稲垣温人です。
+	京都精華大学メディア表現学部3回生です。
+	プログラマー志望で、現在はバックエンドの領域に対して興味を持っています。
+
+    </section>
+    <section id="skills">
+      <h2>制作物</h2>
+      <p>
+	<a href="https://github.com/chitoron/memo">google apiを利用してメモ帳</a>
+	<p></p>
+	<a href="https://github.com/chitoron/-seika-2q-cc-">課題で制作したnpmを使った制作物</a>
+      </p>
+    </section>
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <p>
+	<a href="mailto:i221t016@st.kyoto-seika.ac.jp">メールはこちらへ</a>
+      </p>
+    </section>
+  </div>
 </body>
 </html>
